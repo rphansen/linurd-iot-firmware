@@ -1,0 +1,48 @@
+{
+    "name": "Homie", 
+    "repository": {
+        "url": "https://github.com/marvinroger/homie-esp8266.git", 
+        "type": "git"
+    }, 
+    "platforms": [
+        "espressif8266"
+    ], 
+    "frameworks": [
+        "arduino"
+    ], 
+    "version": "1.5.0", 
+    "dependencies": [
+        {
+            "frameworks": "arduino", 
+            "name": "ArduinoJson", 
+            "authors": "Benoit Blanchon"
+        }, 
+        {
+            "frameworks": "arduino", 
+            "name": "PubSubClient", 
+            "authors": "Nick O'Leary"
+        }, 
+        {
+            "frameworks": "arduino", 
+            "name": "Bounce2", 
+            "authors": "Thomas O Fredericks"
+        }
+    ], 
+    "authors": [
+        {
+            "url": "https://www.marvinroger.fr", 
+            "maintainer": false, 
+            "email": null, 
+            "name": "Marvin Roger"
+        }
+    ], 
+    "keywords": [
+        "home", 
+        "mqtt", 
+        "iot", 
+        "esp8266", 
+        "automation"
+    ], 
+    "id": 555, 
+    "description": "ESP8266 framework for Homie, a lightweight MQTT convention for the IoT"
+}
